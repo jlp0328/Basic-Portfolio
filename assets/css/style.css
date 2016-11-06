@@ -1,0 +1,49 @@
+*{
+	outline: 1px dashed red; /*debug*/
+}
+
+header{
+	background-color: white;
+
+}
+
+.namenav{
+	float:left;
+	background-color: white;
+	padding: 20px;
+	margin-left: 30px;
+	position: absolute;
+}
+
+.nav{
+
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+li{
+	display: inline-block;
+	margin:;
+
+}
+
+li+li{
+
+	border-left:1px solid grey;
+}
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color: white;
+	display: inline;
+	padding: 15px;
+}
+
+.container{
+	margin: 0 auto;
+}
